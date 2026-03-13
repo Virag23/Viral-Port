@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virag Nandgaonkar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- EmailJS SDK — sends form directly to viragsjain1975@gmail.com -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body class="is-loading">
+
+  <!-- Premium Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <div class="preloader-logo">VN</div>
+      <p class="preloader-text">Crafting digital experiences</p>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">VN</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-trophy"></i> SIH 2024 Winner
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="gradient-text">Virag Nandgaonkar</span>
+      </h1>
+      <div class="hero-subtitle">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-description">
+        B.Tech ENTC undergraduate &amp; Full Stack Developer with a passion for building
+        innovative solutions that make a difference.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-envelope"></i> Hire Me
+        </a>
+        <a href="Virag_Nandgaonkar_resume.pdf" class="btn btn-outline" download>
+          <i class="fas fa-download"></i> Resume
+        </a>
+        <a href="#about" class="btn btn-ghost">
+          <i class="fas fa-user"></i> About Me
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/virag-nandgaonkar/" target="_blank" class="hero-social-link" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/Virag23" target="_blank" class="hero-social-link" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/vira.g2310" target="_blank" class="hero-social-link" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">1</span>
+          <span class="stat-label">Hackathon Win</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">Full</span>
+          <span class="stat-label">Stack Dev</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number">Final</span>
+          <span class="stat-label">Year B.Tech</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-container">
+        <div class="avatar-ring ring-1"></div>
+        <div class="avatar-ring ring-2"></div>
+        <div class="avatar-ring ring-3"></div>
+        <div class="avatar">
+          <img src="virag.png" alt="Virag Nandgaonkar" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">Passionate developer turning ideas into reality</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-code"></i></div>
+          <h3>Full Stack Developer</h3>
+          <p>Experienced in building complete web applications from frontend to backend with modern technologies.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-users"></i></div>
+          <h3>Team Leader</h3>
+          <p>Led teams in high-pressure hackathon environments, delivering results within strict deadlines.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Problem Solver</h3>
+          <p>Strong analytical mindset with proven ability to solve complex technical challenges efficiently.</p>
+        </div>
+      </div>
+      <div class="about-text-block">
+        <div class="about-text-left">
+          <h3>About Me</h3>
+          <p>
+            I am a B.Tech undergraduate in Electronics and Telecommunication Engineering with hands-on experience
+            in Full Stack Development. As a <strong>Smart India Hackathon 2024 Winner</strong>, I have honed my
+            leadership skills by successfully leading a team, managing high-pressure situations, and delivering
+            results within strict deadlines.
+          </p>
+          <p>
+            My experience has strengthened my problem-solving abilities, teamwork, and adaptability, making me
+            well-equipped to take on challenging roles in technology and innovation.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Smart India Hackathon 2024 Winner</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Full Stack Development Experience</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Strong Leadership &amp; Team Management</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span>Adaptable &amp; Quick Learner</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-right">
+          <div class="info-card">
+            <h4>Quick Info</h4>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-user"></i> Name</span>
+              <span class="info-value">Virag Nandgaonkar</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-graduation-cap"></i> Degree</span>
+              <span class="info-value">B.Tech ENTC (Final Year)</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-university"></i> College</span>
+              <span class="info-value">Walchand Institute of Technology, Solapur</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-briefcase"></i> Role</span>
+              <span class="info-value">Web Developer</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label"><i class="fas fa-map-marker-alt"></i> Location</span>
+              <span class="info-value">Solapur, Maharashtra</span>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">
+              <i class="fas fa-paper-plane"></i> Let's Connect
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Journey</span>
+        <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+        <p class="section-subtitle">Building a strong academic foundation</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item edu-item edu-item-main" data-aos="left">
+          <div class="timeline-dot active">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content current">
+            <div class="timeline-badge">Currently Pursuing</div>
+            <div class="timeline-header">
+              <div class="timeline-logo">WIT</div>
+              <div>
+                <h3>B.Tech – Electronics &amp; Telecommunication Engineering</h3>
+                <span class="timeline-institute">Walchand Institute of Technology, Solapur</span>
+              </div>
+            </div>
+            <div class="timeline-year"><i class="fas fa-calendar-alt"></i> 2022 – 2026 (Final Year)</div>
+            <p class="timeline-desc">
+              Specializing in ENTC with hands-on experience in Full Stack Development. Active participant
+              in national-level hackathons, representing the college in Smart India Hackathon.
+            </p>
+            <div class="timeline-tags">
+              <span>ENTC</span>
+              <span>Full Stack</span>
+              <span>SIH 2024 Winner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item edu-item edu-item-hsc" data-aos="right">
+          <div class="timeline-dot">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-logo">HSC</div>
+              <div>
+                <h3>HSC – Higher Secondary Certificate</h3>
+                <span class="timeline-institute">Major Hemant Jakate Institute of Science, Nagpur</span>
+              </div>
+            </div>
+            <div class="timeline-year"><i class="fas fa-calendar-alt"></i> 2020 – 2022</div>
+            <div class="timeline-score">
+              <i class="fas fa-star"></i> Score: <strong>73%</strong>
+            </div>
+            <div class="timeline-tags">
+              <span>Science Stream</span>
+              <span>Nagpur</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item edu-item edu-item-ssc" data-aos="left">
+          <div class="timeline-dot">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-logo">SSC</div>
+              <div>
+                <h3>SSC – Secondary School Certificate</h3>
+                <span class="timeline-institute">Sanskar Vidya Sagar</span>
+              </div>
+            </div>
+            <div class="timeline-year"><i class="fas fa-calendar-alt"></i> 2020</div>
+            <div class="timeline-score">
+              <i class="fas fa-star"></i> Score: <strong>73%</strong>
+            </div>
+            <div class="timeline-tags">
+              <span>SSC Board</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies I work with</p>
+      </div>
+      <div class="skills-tabs">
+        <button class="skill-tab active" data-tab="frontend">Frontend</button>
+        <button class="skill-tab" data-tab="languages">Languages</button>
+        <button class="skill-tab" data-tab="backend">Backend</button>
+        <button class="skill-tab" data-tab="tools">Tools &amp; Others</button>
+      </div>
+      <div class="skills-content">
+
+        <div class="skills-panel active" id="tab-frontend">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #e34c2620; color: #e34c26;">
+                <i class="fab fa-html5"></i>
+              </div>
+              <span>HTML5</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #264de420; color: #264de4;">
+                <i class="fab fa-css3-alt"></i>
+              </div>
+              <span>CSS3</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #f0db4f20; color: #f0db4f;">
+                <i class="fab fa-js"></i>
+              </div>
+              <span>JavaScript</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #61dafb20; color: #61dafb;">
+                <i class="fab fa-react"></i>
+              </div>
+              <span>React.js</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #7952b320; color: #7952b3;">
+                <i class="fab fa-bootstrap"></i>
+              </div>
+              <span>Bootstrap</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #38bdf820; color: #0ea5e9;">
+                <i class="fas fa-wind"></i>
+              </div>
+              <span>Tailwind CSS</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="78"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-panel" id="tab-languages">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #0077b620; color: #0077b6;">
+                <i class="fas fa-c"></i>
+              </div>
+              <span>C</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #f0db4f20; color: #f0db4f;">
+                <i class="fab fa-js"></i>
+              </div>
+              <span>JavaScript</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #3572a520; color: #3572a5;">
+                <i class="fab fa-python"></i>
+              </div>
+              <span>Python</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #e34c2620; color: #e34c26;">
+                <i class="fab fa-html5"></i>
+              </div>
+              <span>HTML5</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #00599c20; color: #00599c;">
+                <i class="fas fa-code"></i>
+              </div>
+              <span>C++</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="72"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #f8982020; color: #f89820;">
+                <i class="fab fa-java"></i>
+              </div>
+              <span>Java</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #1572b620; color: #1572b6;">
+                <i class="fas fa-database"></i>
+              </div>
+              <span>SQL</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="74"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #3178c620; color: #3178c6;">
+                <i class="fas fa-file-code"></i>
+              </div>
+              <span>TypeScript</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="68"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-panel" id="tab-backend">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #68a06320; color: #68a063;">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <span>Node.js</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="82"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #47a24820; color: #47a248;">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <span>MongoDB</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="78"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #3572a520; color: #3572a5;">
+                <i class="fab fa-python"></i>
+              </div>
+              <span>Python</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #ff6c3720; color: #ff6c37;">
+                <i class="fas fa-server"></i>
+              </div>
+              <span>Express.js</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #ffca2820; color: #ffca28;">
+                <i class="fas fa-fire"></i>
+              </div>
+              <span>Firebase</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #ff990020; color: #ff9900;">
+                <i class="fab fa-aws"></i>
+              </div>
+              <span>AWS Basics</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="72"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #ff900020; color: #ff9000;">
+                <i class="fas fa-network-wired"></i>
+              </div>
+              <span>REST APIs</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="87"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-panel" id="tab-tools">
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #f0503120; color: #f05031;">
+                <i class="fab fa-git-alt"></i>
+              </div>
+              <span>Git</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #18171720; color: #181717;">
+                <i class="fab fa-github"></i>
+              </div>
+              <span>GitHub</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="88"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #2396ed20; color: #2396ed;">
+                <i class="fab fa-docker"></i>
+              </div>
+              <span>Docker</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="60"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #ff6c3720; color: #ff6c37;">
+                <i class="fas fa-paper-plane"></i>
+              </div>
+              <span>Postman</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="86"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #007acc20; color: #007acc;">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <span>VS Code</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="92"></div></div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon" style="background: #fcc62420; color: #cda100;">
+                <i class="fab fa-linux"></i>
+              </div>
+              <span>Linux</span>
+              <div class="skill-bar"><div class="skill-progress" data-width="66"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="section section-alt" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">My <span class="gradient-text">Achievements</span></h2>
+        <p class="section-subtitle">One proud milestone that defines my journey</p>
+      </div>
+      <div class="achievements-grid single-achievement">
+        <div class="achievement-card main-achievement">
+          <div class="achievement-glow"></div>
+          <div class="achievement-ribbon"><i class="fas fa-crown"></i> National Winner</div>
+          <div class="achievement-layout">
+            <div class="achievement-content">
+              <div class="achievement-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="achievement-year">2024</div>
+              <h3>Smart India Hackathon 2024 Winner</h3>
+              <p>
+                Won the prestigious Smart India Hackathon 2024, India's largest innovation competition,
+                by leading the team through high-pressure rounds and delivering a practical, impactful solution
+                within strict national-level deadlines.
+              </p>
+              <div class="achievement-tags">
+                <span><i class="fas fa-star"></i> National Level</span>
+                <span><i class="fas fa-users"></i> Team Leader</span>
+                <span><i class="fas fa-award"></i> Government of India</span>
+              </div>
+              <div class="achievement-note">
+                <i class="fas fa-bolt"></i>
+                From idea to implementation, I transformed pressure into performance and innovation.
+              </div>
+            </div>
+            <div class="achievement-photo-wrap">
+              <img src="sih.png" alt="Virag Nandgaonkar SIH 2024 victory" class="achievement-photo" />
+              <div class="achievement-photo-caption">
+                <i class="fas fa-camera-retro"></i> SIH 2024 Victory Moment
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world applications built with modern technologies</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 — FleetDocs -->
+        <div class="project-card project-featured project-fleetdocs">
+          <div class="project-top">
+            <div class="project-icon">
+              <i class="fas fa-truck"></i>
+            </div>
+          </div>
+          <div class="project-featured-badge"><i class="fas fa-star"></i> Featured</div>
+          <h3 class="project-title">FleetDocs</h3>
+          <p class="project-subtitle">Fleet &amp; Driver Management System</p>
+          <p class="project-desc">
+            Designed and developed a compliance-first platform for transport operations where fleet and driver
+            documents are uploaded, scanned, and monitored in one place. Using <strong>AWS Textract (OCR)</strong>,
+            FleetDocs extracts critical metadata such as expiry dates, registration details, insurance data,
+            and driver credentials, then validates it for real-time tracking.
+            The system includes role-aware monitoring dashboards and an intelligent reminder pipeline that
+            proactively pushes alerts before deadlines to avoid compliance gaps and legal risk.
+          </p>
+          <div class="project-highlights">
+            <div class="project-highlight"><i class="fas fa-check"></i> OCR extraction for vehicle + driver documents</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Role-based compliance dashboard for monitoring status</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Intelligent alert engine (Email, SMS, in-app)</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Deadline-priority logic to reduce penalty risk</div>
+          </div>
+          <div class="project-metrics">
+            <div class="project-metric">
+              <span>OCR Workflow</span>
+              <strong>Automated extraction + validation pipeline</strong>
+            </div>
+            <div class="project-metric">
+              <span>Alert Stack</span>
+              <strong>Twilio + Brevo + in-app reminders</strong>
+            </div>
+            <div class="project-metric">
+              <span>Monitoring</span>
+              <strong>Live compliance status across fleet assets</strong>
+            </div>
+          </div>
+          <div class="project-techs">
+            <span>React.js</span>
+            <span>JavaScript</span>
+            <span>MongoDB</span>
+            <span>AWS Textract</span>
+            <span>AWS S3</span>
+            <span>Twilio</span>
+            <span>Brevo</span>
+          </div>
+        </div>
+
+        <!-- Project 2 — Taste It -->
+        <div class="project-card project-tasteit">
+          <div class="project-top">
+            <div class="project-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Virag23/TasteIt" target="_blank" class="project-link" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">TasteIT</h3>
+          <p class="project-subtitle">Complete Static Website — Fortune Cloud Technologies</p>
+          <p class="project-desc">
+            A fully responsive, multi-page food website built with Bootstrap. Features smooth navigation
+            between Home, Recipes, and About pages, a Weekly Meal Plan with structured HTML tables,
+            recipe cards with hover effects, embedded YouTube tutorials, and a Contact Us form.
+          </p>
+          <div class="project-highlights">
+            <div class="project-highlight"><i class="fas fa-check"></i> Responsive multi-page layout</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Interactive recipe cards with hover effects</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Embedded media &amp; Contact form</div>
+          </div>
+          <div class="project-techs">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Bootstrap</span>
+          </div>
+        </div>
+
+        <!-- Project 3 — EasyEatify -->
+        <div class="project-card project-easyeatify">
+          <div class="project-top">
+            <div class="project-icon">
+              <i class="fas fa-burger"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Virag23/EasyEatify" target="_blank" class="project-link" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://virag23.github.io/EasyEatify/" target="_blank" class="project-link" title="Live Demo">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">EasyEatify</h3>
+          <p class="project-subtitle">Restaurant Management App — JavaScript Project</p>
+          <p class="project-desc">
+            A frontend-only restaurant management app powered by vanilla JavaScript. Features dynamic
+            menu rendering, category filtering, order management with automatic subtotal and tax (5%)
+            calculations, and conditional dashboards for Customer vs. Manager roles.
+          </p>
+          <div class="project-highlights">
+            <div class="project-highlight"><i class="fas fa-check"></i> DOM manipulation &amp; event handling</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Order calc with tax logic (5%)</div>
+            <div class="project-highlight"><i class="fas fa-check"></i> Customer &amp; Manager dashboards</div>
+          </div>
+          <div class="project-techs">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>DOM API</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Talk</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have an opportunity or just want to say hi? I'd love to hear from you!</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-info-header">
+            <div class="contact-availability">
+              <span class="availability-dot"></span>
+              Available for opportunities
+            </div>
+            <h3>Let's build something amazing together</h3>
+            <p>I'm currently open to new opportunities. Whether you have a project in mind, want to collaborate, or just want to say hello — drop me a message!</p>
+          </div>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/virag-nandgaonkar/" class="contact-link" target="_blank">
+              <div class="contact-link-icon linkedin"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-value">Virag Nandgaonkar</span>
+              </div>
+              <i class="fas fa-arrow-right contact-link-arrow"></i>
+            </a>
+            <a href="https://github.com/Virag23" class="contact-link" target="_blank">
+              <div class="contact-link-icon github"><i class="fab fa-github"></i></div>
+              <div>
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">@Virag23</span>
+              </div>
+              <i class="fas fa-arrow-right contact-link-arrow"></i>
+            </a>
+            <a href="https://www.instagram.com/vira.g2310" class="contact-link" target="_blank">
+              <div class="contact-link-icon instagram"><i class="fab fa-instagram"></i></div>
+              <div>
+                <span class="contact-link-label">Instagram</span>
+                <span class="contact-link-value">@vira.g2310</span>
+              </div>
+              <i class="fas fa-arrow-right contact-link-arrow"></i>
+            </a>
+            <a href="Virag_Nandgaonkar_resume.pdf" class="contact-link" download>
+              <div class="contact-link-icon resume"><i class="fas fa-file-pdf"></i></div>
+              <div>
+                <span class="contact-link-label">Resume</span>
+                <span class="contact-link-value">Download PDF</span>
+              </div>
+              <i class="fas fa-download contact-link-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-header">
+            <h4><i class="fas fa-paper-plane"></i> Send me a message</h4>
+            <p>Replies directly to your inbox within 24 hours.</p>
+          </div>
+          <!-- Hidden fields used by EmailJS template -->
+          <input type="hidden" name="to_email" value="viragsjain1975@gmail.com" />
+          <div class="form-row">
+            <div class="form-group">
+              <label for="from_name"><i class="fas fa-user"></i> Your Name</label>
+              <input type="text" id="from_name" name="from_name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="from_email"><i class="fas fa-envelope"></i> Your Email</label>
+              <input type="email" id="from_email" name="from_email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Collaboration" required />
+          </div>
+          <div class="form-group">
+            <label for="message"><i class="fas fa-comment-dots"></i> Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Message sent successfully! I'll get back to you soon.
+          </div>
+          <div class="form-error" id="formError">
+            <i class="fas fa-exclamation-circle"></i> Something went wrong. Please try again or email directly at <strong>viragsjain1975@gmail.com</strong>
+          </div>
+          <p class="form-note">
+            <i class="fas fa-lock"></i> Your message is sent securely via EmailJS.
+            <a href="#" id="setupNote">Setup required?</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">VN</div>
+      <p class="footer-tagline">Virag Nandgaonkar — Building the web, one line at a time.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/virag-nandgaonkar/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Virag23" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/vira.g2310" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="Virag_Nandgaonkar_resume.pdf" download title="Download Resume"><i class="fas fa-file-pdf"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Virag Nandgaonkar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
