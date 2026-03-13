@@ -75,7 +75,6 @@ window.addEventListener('scroll', updateActiveLink);
 
 // ─── Typing animation ───────────────────────────────────────
 const roles = [
-  'Full Stack Developer',
   'MERN Stack Developer',
   'Problem Solver',
   'SIH 2024 Winner',
